@@ -1,14 +1,20 @@
+<style>
+  .skin-purple .main-header .navbar{
+    background: #000;
+    border:1px solid #605ca8;
+  }
+</style>  
 @inject('request', 'Illuminate\Http\Request')
 <!-- Main Header -->
   <header class="main-header no-print">
-    <a href="{{route('home')}}" class="logo">
+    <a href="{{route('home')}}" class="logo" style="background-color:#000 !important;border:1px solid #605ca8">
       
       <span class="logo-lg">{{ Session::get('business.name') }} <i class="fa fa-circle text-success" id="online_indicator"></i></span> 
 
     </a>
 
     <!-- Header Navbar -->
-    <nav class="navbar navbar-static-top" role="navigation">
+    <nav class="navbar navbar-static-top" role="navigation" style="background-color:#000 !important;border:1px solid 706db1">
       <!-- Sidebar toggle button-->
       <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
         &#9776;

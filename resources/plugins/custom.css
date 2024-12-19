@@ -514,7 +514,7 @@ background-image: linear-gradient(to right, #f64e70, #245b80);
   margin-top: -210px; }
 
 .skin-purple .main-header .logo, .skin-purple-light .main-header .logo {
-  background: #605ca8; }
+  background: #000; }
   .skin-purple .main-header .logo:hover, .skin-purple-light .main-header .logo:hover {
     background: #605ca8; }
 .skin-purple .main-header .navbar, .skin-purple-light .main-header .navbar {
